@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Note</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Editar Nota</h1>
+        <form id="noteForm">
+            <label for="title">Titulo</label>
+            <input type="text" id="titulo" name="titulo" maxlength="200" required>
+
+            <label for="content">Contenido</label>
+            <textarea id="contenido" name="contenido" required rows="5"></textarea>
+
+            <label for="tags">Tags</label>
+            <input type="text" id="tags" name="tags" placeholder="Separados por coma">
+
+            <button type="submit" id="guardarBtn">Guardar</button>
+            <button type="button" id="cancelBtn">Cancelar</button>
+            <button type="button" id="borrarBtn" class="hidden">Borrar</button>
+        </form>
+    </div>
+   
+</body>
+</html>

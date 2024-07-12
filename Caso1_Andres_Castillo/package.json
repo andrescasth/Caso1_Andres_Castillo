@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Simple web page",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node",
+    "Js"
+  ],
+  "author": "Andres Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.0.1"
+  }
+}
